@@ -1,0 +1,278 @@
+{
+  "source": "https://github.com/medusajs/medusa.git",
+  "commit": "01de0be27a7c228795d5cfc31662ca144781fbfc",
+  "number_of_original_workflow_files": 45,
+  "original_ci_is_disabled": true,
+  "files": [
+    {
+      "upstream_path": ".github/workflows/action.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/action.yml",
+      "git_blob": "46f92286be84c45deaa0e36f8284164d39a5a800",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/admin-i18n-sync.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/admin-i18n-sync.yml",
+      "git_blob": "1ea2109e653e3c4f74d6bf49e04c25603f0571ac",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/admin-i18n-validation.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/admin-i18n-validation.yml",
+      "git_blob": "ac60a3c9f8b67e03562151f8a71305f97056ccaa",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/agent-docs-scan.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/agent-docs-scan.yml",
+      "git_blob": "77439992d969aaa664da672646fe705ed17133a0",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/ai-rewrite-timer.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/ai-rewrite-timer.yml",
+      "git_blob": "560cc3d6b94876a5ccc1f2679f3f093d4291d42d",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/algolia-api-indexer.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/algolia-api-indexer.yml",
+      "git_blob": "c872d08277db7d3f02d2b08f9e3f731bd3869ab3",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/close-linked-prs.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/close-linked-prs.yml",
+      "git_blob": "1c18d2f897c9dccf54da69ab6a3df1ec9f3e7eb8",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cloud-docs-automation.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/cloud-docs-automation.yml",
+      "git_blob": "557b3c4f5d6e724558778b0cacf056b7e0074a30",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/cloud-webhooks-docs-automation.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/cloud-webhooks-docs-automation.yml",
+      "git_blob": "06019f10057461f402830d1478fde958652be90e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/dependency-checks.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/dependency-checks.yml",
+      "git_blob": "71fc186f37babd74fa2aec99b6fcd63f4a5c8bd0",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/discord-issue-labels.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/discord-issue-labels.yml",
+      "git_blob": "0747f2946bafecb82cbce8f94989df70e43713eb",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/docs-automation.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/docs-automation.yml",
+      "git_blob": "4f8e321e944b03a04e69b92efc0939a0cbb885f1",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/docs-staging-sync.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/docs-staging-sync.yml",
+      "git_blob": "6dc9c39555af1a92664ac4416a9e1c82df72d9d7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/docs-test.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/docs-test.yml",
+      "git_blob": "af6188ebcf1dbd05e0d84aaabcb2804520c6ca30",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/docs-update-version.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/docs-update-version.yml",
+      "git_blob": "7f2ee2a8be653a894f082fd35ea0d0c32b3ffba9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/draft-release.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/draft-release.yml",
+      "git_blob": "c20279c6b0bb76918dd6443a86e6c3da4895094a",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/fix-bug-action.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/fix-bug-action.yml",
+      "git_blob": "a28651fd025e1f0552f8f3c6c835578a15c174f0",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/fix-docs-action.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/fix-docs-action.yml",
+      "git_blob": "e7e5b75f7c3d1d8ab921eb1146951e3600d0af1c",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/fix-issue.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/fix-issue.yml",
+      "git_blob": "63160d67eb23da7a182f669e8795b69ad0208acf",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/generate-public-references.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/generate-public-references.yml",
+      "git_blob": "91cc136d930342893e17f8d428ffe3efa6d0a6d3",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/kapa-coverage-gaps.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/kapa-coverage-gaps.yml",
+      "git_blob": "fd022c1d72aac2fc80e680822bbd06c674975a9e",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/kapa-doc-fixes.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/kapa-doc-fixes.yml",
+      "git_blob": "0c259bcf8602c8a6143ab2374dc74712826c7dc4",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/kapa-top-questions.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/kapa-top-questions.yml",
+      "git_blob": "7e56f98da4c6c6c54b88036c7444c063f9b4cd4b",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/notify-docs-consumers.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/notify-docs-consumers.yml",
+      "git_blob": "dc8251f997a4947f39e9d1bfa42207d1f55bcafd",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/notify-os-bot-prs.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/notify-os-bot-prs.yml",
+      "git_blob": "1f40eef9c55a5be9d4cf13bc409b4f155ccb5643",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/notify-release-published.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/notify-release-published.yml",
+      "git_blob": "23069c273afddc33dc3c7f3307aeec391f06b0d7",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/notify-upcoming-release-items.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/notify-upcoming-release-items.yml",
+      "git_blob": "036d6c3f96b91b83fdd9363d61d3fa080352a434",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/nudge-preview-bump.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/nudge-preview-bump.yml",
+      "git_blob": "3ddd548910275deff05a6daecc03058fc83c0a50",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/oas-test.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/oas-test.yml",
+      "git_blob": "a87b67af2f39dddab716aca17cc13bcc83dab0da",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/pr-guardrails.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/pr-guardrails.yml",
+      "git_blob": "aee7494522f1f00b7a9cc6b89045c83c9127b162",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/release-notifications.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/release-notifications.yml",
+      "git_blob": "110f2469de37d34d02fd378f2fbed825219980d3",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/release-reminder.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/release-reminder.yml",
+      "git_blob": "c6aa0d92bbc4c8a5a25551f284ef3a750c6273e6",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/review-pr-action.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/review-pr-action.yml",
+      "git_blob": "5d392ec5d697c346014fd75a1d6db10e05e532a9",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/review-prs.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/review-prs.yml",
+      "git_blob": "d40083b23a94893407cb7ad6623489248df1af79",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/security-advisories-to-linear.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/security-advisories-to-linear.yml",
+      "git_blob": "d9d9c067ce97bf8f0a14f629740834b589d394a2",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/stale-bot.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/stale-bot.yml",
+      "git_blob": "d14ab280c43e24485bca21c2be74a2f344fc8496",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/sync-docs-to-r2.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/sync-docs-to-r2.yml",
+      "git_blob": "a08f0ff43f5ac8ea7490ee37bdf94c4722673bd2",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/team-labeler.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/team-labeler.yml",
+      "git_blob": "a9262b7a1a0657559d98aeb3489f24b6f9565778",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/test-cli-with-database.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/test-cli-with-database.yml",
+      "git_blob": "1550146c5365923195a48035a61e9a74223ce689",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/triage-dependabot-alerts.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/triage-dependabot-alerts.yml",
+      "git_blob": "90415f36c2084172b5afed9453e094609a529070",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/triage-issue-action.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/triage-issue-action.yml",
+      "git_blob": "17061edbab84a8210fde6a4d6ebc386691e70a2b",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/triage-issues.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/triage-issues.yml",
+      "git_blob": "8ef1cfe7c868f26bb2f202068ded91fa192d28e3",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/trigger-release.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/trigger-release.yml",
+      "git_blob": "1368d5a1622db5c1b43ac8c8324a6af0a3401f93",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/update-dependencies.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/update-dependencies.yml",
+      "git_blob": "de1d99f95e46bb94fbb15a40b6ff110303d7d3a8",
+      "original_mode": "100644"
+    },
+    {
+      "upstream_path": ".github/workflows/validate-http-types.yml",
+      "reference_path": "upstream-workflow-snapshots/medusa/.github/workflows/validate-http-types.yml",
+      "git_blob": "925177d69dc377056b49fa1ee567255279a9e420",
+      "original_mode": "100644"
+    }
+  ]
+}
