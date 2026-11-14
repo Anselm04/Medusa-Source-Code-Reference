@@ -2,9 +2,9 @@
 
 Independent research reference for [medusajs/medusa](https://github.com/medusajs/medusa), focused on commerce architecture, payment and order workflows, API/event patterns, and reliability engineering relevant to AppForge, TrillionAI Marketing and Manager.
 
-## Licence-aware source snapshot
+## Verified licence-filtered source snapshot
 
-Medusa's current root `LICENSE` specifies MIT for the community source **except** proprietary Enterprise Materials explicitly enumerated in its `ENTERPRISE-LICENSE.md`. RBAC and SSO implementation files and directories listed in that licence require a separate commercial agreement. The import workflow excludes those exact tracked paths from the public archive while preserving both original licence notices.
+Medusa's current root `LICENSE` specifies MIT for the community source **except** proprietary Enterprise Materials explicitly enumerated in its `ENTERPRISE-LICENSE.md`. RBAC and SSO implementation files and directories listed in that licence require a separate commercial agreement. The import workflow excluded those exact tracked paths from the public archive while preserving both original licence notices.
 
 - Original upstream: `medusajs/medusa`
 - Original upstream commit: `01de0be27a7c228795d5cfc31662ca144781fbfc`
@@ -12,7 +12,7 @@ Medusa's current root `LICENSE` specifies MIT for the community source **except*
 - Proposed snapshot branch: [`medusa-upstream-snapshot`](https://github.com/Anselm04/Medusa-Source-Code-Reference/tree/medusa-upstream-snapshot/upstream)
 - [Automated licence-filtered import and remote verification](https://github.com/Anselm04/Medusa-Source-Code-Reference/actions/workflows/import-medusa-source.yml)
 
-The snapshot is not a full verbatim mirror: enterprise material is deliberately omitted. It should only be marked **verified** after the import workflow confirms the filtered tree was uploaded and matches the recorded filtered local tree.
+**GitHub Actions verification passed.** The archive retains **25,032 of 25,297 upstream tracked files**, excluding **265 enterprise-licensed files** specified by 53 upstream enterprise path entries. The resulting filtered Git tree is `9dfde825357225687b752656368e03a89919c711`. This is deliberately not a verbatim mirror. [View the successful verification run](https://github.com/Anselm04/Medusa-Source-Code-Reference/actions/runs/43538952229).
 
 ## Engineering separation
 
