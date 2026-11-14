@@ -70,7 +70,7 @@ jobs:
               p.startswith(spec) if spec.endswith('/') else p==spec for spec in specs)})
           if not excluded:
               raise SystemExit('Enterprise exclusions unexpectedly empty')
-          pathlib.Path('../EXCLUDED_ENTERPRISE_PATHS').write_text(''.join(p+'\\n' for p in excluded))
+          pathlib.Path('../EXCLUDED_ENTERPRISE_PATHS').write_text(''.join(p+'\n' for p in excluded))
           print(f'Enterprise licence specs: {len(specs)}; excluded Git paths: {len(excluded)}')
           PY
 
@@ -88,7 +88,7 @@ jobs:
             [ -n "$path" ] && git update-index --force-remove -- "upstream/$path"
           done < ../EXCLUDED_ENTERPRISE_PATHS
           test "$(git ls-tree --name-only "$(git write-tree)")" = "upstream"
-          git -c core.hooksPath=/dev/null commit --quiet \\
+          git -c core.hooksPath=/dev/null commit --quiet \
             -m "Medusa community research source excluding separately licensed enterprise paths"
           git rev-parse 'HEAD:upstream' > ../FILTERED_TREE
           git ls-tree -r --name-only HEAD:upstream | wc -l | tee ../RETAINED_FILE_COUNT
